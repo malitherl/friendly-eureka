@@ -1,0 +1,1 @@
+This is a mock-up of an online store using React 
