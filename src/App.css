@@ -1,0 +1,140 @@
+
+div {
+  background-color: #1A1A1D;
+}
+
+
+.backdrop{
+  top:0;
+  left:0%;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(25,25,25,.1);
+}
+
+
+.card {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+.cardText {
+  
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart {
+  
+  right: 0;
+  top:0;
+  margin-right: 20%;
+  margin-top: 25px;
+
+}
+
+.container {
+  position: relative;
+  display: grid; 
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.main {
+  background-color: #1A1A1D;
+}
+
+.mini {
+  background-color: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: rgb(25,25,25) 1px solid;
+}
+
+.modal {
+  top: 50%;
+  left: 40%;
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: whitesmoke; 
+  position: fixed;
+  color:#1A1A1D;
+  padding: 20px;
+  flex: flexbox;
+  flex-direction: row;
+  
+}
+
+.products {
+  color:whitesmoke;
+  position: relative;
+  width: 100%;
+
+}
+
+a{
+  text-decoration: none;
+  color:whitesmoke;
+}
+
+h1 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+a:hover {
+  color:rgba(26, 255, 255, .6) ;
+}
+
+img {
+  padding: 20px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  color:whitesmoke;
+}
+
+.nav-Links {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+}
+
+button {
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 25px;
+  border-style: none;
+  color: aliceblue;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button:hover {
+  background-color: rgba(26, 255, 255, .4);
+}
+
+img:hover {
+  opacity: .5;
+}
+
+#modalCancel{
+  background-color: brown;
+  float: left
+}
+
+#modalCheckout {
+  float: right;;
+  background-color: #1A1A1D;
+}
