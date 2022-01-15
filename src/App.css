@@ -101,8 +101,12 @@ nav{
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
-  color:whitesmoke;
 }
+
+nav h1 {
+  color: white;
+}
+
 
 .nav-Links {
   width: 50%;

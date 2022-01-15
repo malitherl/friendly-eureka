@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import Rainbow from './hoc/Rainbow';
 
 function Nav() {
     return (
@@ -19,4 +20,4 @@ function Nav() {
     )
 }
 
-export default Nav;
+export default Rainbow(Nav);
