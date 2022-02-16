@@ -2,7 +2,7 @@
 function Modal(props) {
 
     const style = {
-        textAlign: "right",
+        textAlign: "center",
     }
 
     //this is the cart itself. it appears as an overlay for the webpage. 
@@ -10,8 +10,10 @@ function Modal(props) {
        <h3>My Cart</h3>
        {props.displayTotal}
        <h4 style={style }>Total: {props.total}</h4>
-       <button id="modalCancel">Cancel</button>
-       <button id="modalCheckout">Checkout</button> 
+        <div className="modalButtons">
+            <button>Cancel</button>
+            <button>Checkout</button> 
+        </div>
     </div>
 }
 

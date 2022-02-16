@@ -6,16 +6,19 @@ function Nav() {
     return (
         <div>
            <nav>
-              <h1>Online Tea Store</h1>
-               <ul className="nav-Links">
-                    <li>
-                        <Link to="/home">Home</Link>
-                   </li>
-                   <li>
-                      <Link to="/shop">Shop</Link>
-                   </li>
-               </ul>
-           </nav>
+            <ul id="lhs-links">
+                <li>All Products</li>
+                <li>About Us</li>
+            </ul>            
+
+            <h1>Tea Pot Shop</h1>
+
+            <ul id="rhs-links">
+                <li>My Account</li>
+                <li>Gift</li>
+                <li>Cart</li>
+            </ul>
+        </nav>
         </div>
     )
 }
